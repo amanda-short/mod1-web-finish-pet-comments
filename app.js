@@ -32,7 +32,7 @@ window.addEventListener('load', async () => {
 function displayError() {
     if (error) {
         // eslint-disable-next-line no-console
-        console.log(error);
+        // console.log(error);
         errorDisplay.textContent = error.message;
     } else {
         errorDisplay.textContent = '';
